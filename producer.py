@@ -9,7 +9,7 @@ producer = KafkaProducer(
 )
 
 while True:
-    msg = {"user": "Harshit", "action": "login", "timestamp": datetime.utcnow().isoformat()}
+    msg = {"user": "Akhil", "action": "login", "timestamp": datetime.utcnow().isoformat()}
     producer.send("test-topic", msg)
     print("Sent:", msg)
     time.sleep(5)
