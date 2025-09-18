@@ -50,13 +50,17 @@ dashboard_consumer.py	consumer + dashboard/reporting view
 cons.ipynb	notebook exploring data from consumer
 prod.ipynb	notebook exploring data from producer or full pipeline
 IT Salary Survey EU 2020.csv	sample dataset used by producer (if applicable)
+
 --
+
 **Prerequisites**
 Python 3.x installed
 Apache Kafka setup (local or remote)
 pip for installing dependencies
 Jupyter Notebook (for notebooks)
+
 --
+
 **Setup Instructions**
 Clone the repo
 git clone https://github.com/akhilshrivas/stream_data_using_kafka.git
@@ -81,7 +85,9 @@ Start Zookeeper (if needed)
 Start Kafka broker(s)
 
 Create topic(s) if required
+
 --
+
 **How to Run**
 Run producer to send data:
 python producer.py
@@ -93,19 +99,25 @@ For dashboards / notebooks:
 jupyter notebook
 
 Then open cons.ipynb or prod.ipynb as needed to explore or visualize.
+
 --
+
 **Usage**
 You can adapt producer to send different datasets by modifying the CSV or source.
 Use consumer or dashboard script to transform / filter / summarize streamed data.
 The notebooks help in exploratory data analysis and understanding latency, throughput, etc.
+
 --
+
 **Troubleshooting / Common Issues**
 Problem	Possible Solution
 Kafka not reachable / connection refused	Check broker address, ports; ensure Kafka service is running
 Topic doesn’t exist	Create topic manually or via script before producing or consuming
 Version / dependency mismatch	Use virtual env; upgrade / reinstall dependencies
 Line endings warnings (LF vs CRLF)	Configure Git: git config core.autocrlf true
+
 --
+
 **Future Improvements**
 Add Docker setup for Kafka + services for easier environment setup
 Add more robust error handling in producer/consumer
