@@ -1,7 +1,11 @@
 **stream_data_using_kafka**
----
-A project to stream and process data using Kafka. Producer sends data, consumer receives, with dashboards/logging to monitor flow.
+
 --
+
+A project to stream and process data using Kafka. Producer sends data, consumer receives, with dashboards/logging to monitor flow.
+
+--
+
 **Table of Contents**
 
 1.Overview
@@ -14,14 +18,18 @@ A project to stream and process data using Kafka. Producer sends data, consumer 
 8.Troubleshooting / Common Issues
 9.Future Improvements
 10.License
+
 --
+
 **Overview**
 This project demonstrates how to stream data using Apache Kafka. It includes:
 A producer component to send data
 A consumer component to receive and possibly process data
 Dashboard-style monitoring via notebooks
 IPython / Jupyter notebooks for exploring results
+
 --
+
 **Features**
 
 Real-time data streaming with Kafka
@@ -31,7 +39,9 @@ Data visualization / exploration with Jupyter notebooks
 Modular producer / consumer codes
 
 Sample datasets included for testing
+
 --
+
 **Repository Structure**
 File / Folder	Purpose
 producer.py	sends data into Kafka topic(s)
