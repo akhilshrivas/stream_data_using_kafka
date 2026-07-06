@@ -1,11 +1,7 @@
 **stream_data_using_kafka**
-
 --
-
 A project to stream and process data using Kafka. Producer sends data, consumer receives, with dashboards/logging to monitor flow.
-
 --
-
 **Table of Contents**
 
 1.Overview
